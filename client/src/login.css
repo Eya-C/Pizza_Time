@@ -1,0 +1,55 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('pizza2.webp'); /* Ajoutez ici votre image de fond */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .auth-box {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .auth-title {
+    font-family: 'Cursive, sans-serif';
+    font-size: 24px;
+    color: #D2691E; /* Couleur pizza */
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF4500; /* Couleur pizza */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .auth-button:hover {
+    background-color: #FF6347;
+  }
+  
