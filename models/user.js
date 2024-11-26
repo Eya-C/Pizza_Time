@@ -32,4 +32,8 @@ userShema.methods.matchPassword = async function (enteredPassword){
     return await bcrypt.compare(enteredPassword, this.password);
 
 };
+<<<<<<< HEAD
 const User = mongoose.model('User' , userShema)
+=======
+const User = mongoose.model('User' , userShema)
+>>>>>>> 2ccb3de3ed13ec351af8dbd2b2439c456de4b0a8
